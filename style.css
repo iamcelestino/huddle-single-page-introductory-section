@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Poppins:wght@600&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+:root{
+    --primary: hsl(257, 40%, 49%);
+    --primary-active: hsl(300, 69%, 71%);
+}
+*, *::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/bg-mobile.svg) no-repeat;
+    background-size: 100%;
+    background-color: var(--primary);
+
+}
+
+.container{
+    padding:  0 2rem;
+    color: white;
+    
+}
+
+header{
+    width: 60%;
+    padding: 2rem 0  2.5rem;
+}
+
+h1{
+    margin: 1rem 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main__content div{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+ion-icon{
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    border: 1px solid;
+}
+
+ion-icon:hover{
+    color: var(--primary-active);
+    transition: color 2s cubic-bezier(0.47, 2, 0.75, 0.75);
+}
+
+button{
+    background-color: #fff;
+    padding: 1rem  3rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    color: var(--primary);
+}
+
+button:hover{
+    background-color: var(--primary-active);
+    color: #fff;
+    transition: background-color 2s cubic-bezier(0.47, 2, 0.75, 0.75);
+}
+
+img{
+    max-width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: var(--primary-active);
+ }
+
+@media screen and (min-width: 51em){
+    body{
+        background: url(./images/bg-desktop.svg) no-repeat;
+        background-size: 100%; 
+        background-color: var(--primary);
+    }
+
+    header{
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+
+    img{
+        max-width: 50%;
+    }
+
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 3rem;
+    }
+
+    .main__content{
+        display: flex;
+        align-items: center;
+    }
+
+    .main__content div{
+        text-align: left;
+        padding: 0 2rem;
+    }
+
+    .social{
+        text-align: right
+    }
+
+    .attribution { 
+        text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
