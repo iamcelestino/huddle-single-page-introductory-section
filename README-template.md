@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [solution URL here](https://github.com/iamcelestino/huddle-single-page-introductory-section.git)
+- Live Site URL: [live site URL here](https://iamcelestino.github.io/huddle-single-page-introductory-section/)
 
 ## My process
 
@@ -22,9 +22,8 @@
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
+```
 
  
 
