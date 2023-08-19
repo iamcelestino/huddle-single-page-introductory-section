@@ -5,7 +5,8 @@
     --primary: hsl(257, 40%, 49%);
     --primary-active: hsl(300, 69%, 71%);
 }
-*, *::before, ::after{
+
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
